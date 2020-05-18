@@ -28,6 +28,7 @@ items:
           livenessProbe:
             httpGet:
               path: /
+              port: 80
             initialDelaySeconds: 1
             timeoutSeconds: 1
 - kind: ReplicationController
